@@ -1,9 +1,6 @@
-function calculate() {
-    let num1 = Number(document.getElementById("num1").value);
-    let num2 = Number(document.getElementById("num2").value);
-
-    let sum = num1 + num2;
+function showChoice() {
+    let choice = document.getElementById("fruit").value;
 
     document.getElementById("result").innerHTML =
-        "Result: " + sum;
+        "You selected: " + choice;
 }
